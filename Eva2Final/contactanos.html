@@ -1,0 +1,50 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilocontacto.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</div>
+<ul>
+  <li><a href="landing-page.html">home</a></li>
+  
+</ul>
+</div>
+
+
+<ul id="redes-sociales">
+    <li><i class="fab fa-facebook-f"></i></li>
+    <li><i class="fab fa-instagram"></i></li>
+    <li><i class="fab fa-youtube"></i></li>
+    
+</ul>
+
+<script>
+    // Selecciona la lista de redes sociales
+    const redesSociales = document.getElementById('redes-sociales');
+
+    // Agrega un evento de clic a cada ícono de redes sociales
+    redesSociales.querySelectorAll('li').forEach((icono) => {
+        icono.addEventListener('click', () => {
+            // Obtén la clase del ícono de redes sociales
+            const clase = icono.firstChild.classList[1];
+
+            // Redirige al usuario a la página de redes sociales correspondiente
+            switch (clase) {
+                case 'fa-facebook-f':
+                    window.location.href = 'https://www.facebook.com/profile.php?id=100064727976844';
+                    break;
+                
+                case 'fa-instagram':
+                    window.location.href = 'https://www.instagram.com/matimendozac/';
+                    break;
+                case 'fa-youtube':
+                    window.location.href = 'https://www.youtube.com/shorts/2Jy94BPzvMc';
+                    break;
+                default:
+                    break;
+            }
+        });
+    });
+</script>
+
+
+

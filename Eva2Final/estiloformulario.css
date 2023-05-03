@@ -1,0 +1,44 @@
+/* Estilos para el formulario */
+form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para los labels */
+  label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  /* Estilos para los inputs */
+  input,
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Estilos para el botón */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color:  #555;
+  }
+  h1 {display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: indianred;
+    border-radius: 5px;
+  }
+  
